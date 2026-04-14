@@ -12,5 +12,50 @@
 </script>
 
 </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model Layout</title>
+    <style>
+        .container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+        }
 
+        .red, .green, .yellow {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="yellow"></div>
+    </div>
+
+</body>
+</html>
 </html>
